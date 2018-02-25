@@ -1,0 +1,74 @@
+body{
+
+    font-family: "segoe ui", segoe;
+
+}
+
+/*Welkom bericht hoofpagina */ 
+.FrontHeader {
+    text-align: center;
+    padding: inherit;
+    font-size: 24px;
+
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-bottom: 80px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 80px;
+    background-color: #a01023;
+    color: white;
+
+}
+
+.button {
+    position: relative;
+    color: darkslategray;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    font-family: "segoe ui", segoe;
+
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    
+    background-color: transparent;
+    border: 1px solid;
+    transition: 0.4s;
+    
+
+}
+
+.button:hover {
+    color: white;
+    border: 1px solid;
+    background-color: #a01023;
+}
+
+
+.infoTable {
+    text-align: center;
+}
+.infoTable p {
+    font-size: 20px;
+    font-family: "segoe ui", segoe;
+    padding-bottom: 0px;
+    height: 100%;
+}
+
+
+h3 {
+    font-size: 32px;   
+}
+
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}

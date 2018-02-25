@@ -1,0 +1,43 @@
+#NavBar.navbar-default {
+    font-size: 20px;
+    background-color: #a01023;
+    border-bottom-width: 0px;
+    font-family: "segoe ui", segoe;
+    color: white;
+    margin-bottom: auto;
+    padding-right: 15px;
+    transition: 0,4s;
+}
+
+#NavBar.navbar-default .navbar-nav>li>a {
+    font-family: "segoe ui", segoe;
+    background-color: #a01023;
+    color: white;
+    transition: 0,4s;
+
+}
+#NavBar.navbar-default .navbar-nav>li>a:hover,
+#NavBar.navbar-default .navbar-nav>li>a:focus {
+    color: darkslategray;
+    background-color: white;
+}
+#NavBar.navbar-default .navbar-nav>.active>a,
+#NavBar.navbar-default .navbar-nav>.active>a:hover,
+#NavBar.navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: rgba(231, 231, 231, 1);
+}
+#NavBar.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#NavBar.navbar-default .navbar-toggle:hover,
+#NavBar.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#NavBar.navbar-default .navbar-toggle .icon-bar {
+    background-color: #a01023;
+}
+#NavBar.navbar-default .navbar-toggle:hover .icon-bar,
+#NavBar.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #a01023;
+}
