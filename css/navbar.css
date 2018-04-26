@@ -9,12 +9,20 @@
     transition: 0,4s;
 }
 
+#NavBar.navbar-default p {
+    font-family: "segoe ui", segoe;
+    font-size: 20px;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: auto;
+    line-height: 20px;
+}
+
+
 #NavBar.navbar-default .navbar-nav>li>a {
     font-family: "segoe ui", segoe;
     background-color: #a01023;
     color: white;
     transition: 0,4s;
-
 }
 #NavBar.navbar-default .navbar-nav>li>a:hover,
 #NavBar.navbar-default .navbar-nav>li>a:focus {
